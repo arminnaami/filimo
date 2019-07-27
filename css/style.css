@@ -1,0 +1,57 @@
+.mr-auto, .mx-auto {
+    margin-right: 0!important;
+}
+@font-face {
+    font-family: 'iranSans';
+    src: url('../fonts/IRANSANSWEB.ttf');
+}
+body{
+    font-family: 'iranSans'!important;
+    background: #fbfbfd!important;
+    color: #323233!important;
+    font-size: 12px!important;
+    font-weight: 400!important;
+    position: relative!important;
+    direction: rtl!important;
+    margin: 0!important;
+    padding: 0!important;
+    outline: 0!important;
+    border: 0!important;
+    overflow-x: hidden!important;
+    min-height: 100%!important;
+    scroll-behavior: smooth!important;
+}
+
+.btn_tamasha{
+    padding: 15px 40px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(25, 171, 86);
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.btn_tamasha:hover{
+    padding: 15px 40px;
+    font-size: 13px;
+    color: white;
+    transition: all 0.5s;
+    background-color: #1c7430;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.btn_play {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.6);
+    border: 1px solid silver;
+    padding: 12px 28px;
+    border-radius: 30px;
+}
+.btn_play:hover {
+    color: white;
+    text-decoration: none;
+}
